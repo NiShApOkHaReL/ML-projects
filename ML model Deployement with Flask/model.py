@@ -22,4 +22,4 @@ classifier = RandomForestClassifier()
 
 classifier.fit(x_train, y_train)
 
-pickle.dump(classifier, open("model.pkl", "ab"))
+pickle.dump(classifier, open("model.pkl", "wb"))
